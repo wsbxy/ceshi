@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>景点锦里</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1" >
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+  		<script src="js/bootstrap.min.js"></script>
+  		<script src="js/docs.min.js"></script>
+  		<script src="js/docs.min.js"></script>
+  		<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+	<style>
+		
+  		 	.list-group{
+  		 		/*左侧固定*/
+  		 		position: fixed;
+  		 		top: 80%;
+  		 	}
+	</style>
+	</head>
+	<body data-spy = "scroll" data-target="#mynav" data-offset = "100">
+		<div class="container-fluid">
+			<h4 class="page-header">风景区九寨沟</h4>
+			<!--navbar-default默认的颜色，navbar-inverse是反色-->
+			<nav class="navbar navbar-inverse">
+				<div class="container">
+					<div class="navbar-header">
+					<a href="" class="navbar-brand">
+						<img src="images/logo.jpg" height="100%" />
+					</a>
+					<button class="navbar-toggle collapsed" data-toggle = "collapse" data-target = "#mynavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div id="mynavbar" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">首页</a></li>
+					<li><a href="jingdian.html">景点</a></li>
+					<li><a href="">大咖</a></li>
+					<li><a href="">自驾游</a></li>
+					<li><a href="">品牌体验</a></li>
+					<li class="dropdown">
+						<a href="" class="dropdown-toggle" data-toggle="dropdown">
+							<span>登录<span class="caret"></span></span>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="">后台登录</a></li>
+							<li><a href="">前台登录</a></li>
+							
+						</ul>
+					</li>
+				</ul>
+				<div id="mynavbar" class="collapse navbar-collapse">
+					
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="">旅游项目</a></li>
+				</ul>
+				<form action="" class="navbar-form navbar-right">
+					<div class="form-group">
+						<input type="text" class="form-control" />
+					</div>
+					<div class="form-group">
+						<button  class="btn btn-danger">
+							<span class="glyphicon glyphicon-search"></span>搜索
+						</button>
+					</div>
+				</form>
+			</div>
+			</div>
+			</nav>
+				<nav class="navbar navbar-default">
+				  <div class="container-fluid">
+				    <div class="navbar-header">
+				      <a class="navbar-brand" href="#">
+				        <p>旅游国旅四川>成都出发>阿坝州跟团游</p>
+				      </a>
+				    </div>
+				  </div>
+				</nav>
+				<div class="row">
+					<!--左边-->
+				<div class="col-md-5">
+					<!--左上面的图片-->
+				<div id="mycarousel" class="carousel slide" data-ride = "carousel">
+					<!--幻灯片图片-->
+					<div class="carousel-inner">
+					<div class="item active">
+						<img src="images/chengdu1.jpg" width="100%"/>
+					</div>
+					<div class="item">
+						<img src="images/chengdu2.jpg" width="100%"/>
+					</div>
+					<div class="item">
+						<img src="images/chengdu3.jpg" width="100%"/>
+					</div>
+
+				
+				<!--左右控制-->
+				<a href="#mycarousel" class="left carousel-control" data-slide = "prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a href="#mycarousel" class="right carousel-control" data-slide = "next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+				</div>
+				<!--左下角-->
+				<div class="row">
+					<div id="mycarouse2" class="carousel slide" data-ride = "carousel">
+						<div class="carousel-inner">
+							<div class="item active">
+								<div class="col-md-2" style="margin-top:15px ;">
+									<img src="images/chengdu1.jpg" width="100%" />
+								</div>
+								<div class="col-md-2" style="margin-top:15px ;">
+									<img src="images/chengdu2.jpg" width="100%" />
+								</div>
+								<div class="col-md-2" style="margin-top:15px ;">
+									<img src="images/chengdu1.jpg" width="100%" />
+								</div>
+								<div class="col-md-2" style="margin-top:15px ;">
+									<img src="images/chengdu3.jpg" width="100%" />
+								</div>
+								<div class="col-md-2" style="margin-top:15px ;">
+									<img src="images/chengdu1.jpg" width="100%" />
+								</div>
+								<div class="col-md-2" style="margin-top:15px ;">
+									<img src="images/chengdu1.jpg" width="100%" />
+								</div>
+							</div>
+							<div class="item">
+								<div class="col-md-2" style="margin-top:15px ;">
+									<img src="images/chengdu2.jpg" width="100%" />
+								</div>
+							</div>
+							<!--左右控制-->
+							<a href="#mycarouse2" class="left carousel-control" data-slide = "prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+							</a>
+							<a href="#mycarouse2" class="right carousel-control" data-slide = "next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</a>
+						</div>
+						</div>
+					</div>
+					
+				</div>
+				</div>
+					<!--右边-->
+					<div class="col-md-7">
+						<h3 class="page-header"style="margin-top:0px;">【跟团游·促销】销量冠.军100%0自费0购物！九寨沟+黄龙 赠马术表演5D千古情四星酒店</h3>
+						<table class="table" >
+							<tr>
+								 <p>成都+九寨沟+黄龙/牟尼沟 | 赠送290元九寨千古情晚会+藏家篝火晚会及土火锅 | 团号: 90后不加钱，爆款，全程0自费，送双晚会</p>
+							</tr>
+							<tr>
+								 <div class="navbar-header">
+				    				 <a class="navbar-brand" href="">
+				       				 <p>
+				       				 	
+				       				 	<span class="glyphicon glyphicon-yen"></span>
+				       				 	998&nbsp;&nbsp;&nbsp;
+				       				 	<span class="glyphicon glyphicon-shopping-cart"></span>添加购物车
+				       				 </p>
+				   					 </a>
+				    			</div>
+							</tr><br />
+							<tr>
+								<td style="color: #CCCCCC">行程套餐</td>
+								<td>成都-成都&nbsp;四川、阿坝州&nbsp;3天2晚</td>
+							</tr>
+							<tr>
+								<td style="color: #CCCCCC">产品特色</td>
+								<td>民族风情</td>
+							</tr>
+							<tr>
+								<td style="color: #CCCCCC">服务承诺</td>
+								<td><span class="glyphicon glyphicon-ok"></span>官方认证商家<span class="glyphicon glyphicon-ok"></span>24小时内退款保证&nbsp;</td>
+							</tr>
+							<tr>
+								<div class="container-fluid">
+									<td>
+										<button class="btn btn-danger">
+											<span class="glyphicon glyphicon-phone-alt"></span>
+										</button>
+									</td>
+									<td>订购热线：4008208820</td>
+								</div>
+							</tr>
+						</table>
+					</div>
+				</div>
+		
+			<div class="container-fluid">
+			<!--导航条-->
+			<nav class="navbar navbar-default " >
+  				<div class="container">
+    				<div class="navbar-header">
+     					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+       				 	<span class="sr-only">Toggle navigation</span>
+       					<span class="icon-bar"></span>
+       					<span class="icon-bar"></span>
+       					<span class="icon-bar"></span>
+     			 		</button>
+    		 			 <a class="navbar-brand" href="#">旅游路线推荐</a>
+    				</div>
+    				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    		  			<ul class="nav navbar-nav">
+    		  				<li class="active linux1"><a href="#linux1">费用说明</a></li>
+       						<li class="linux2"><a href="#linux2">路线特色</a></li>
+       						<li class="linux3"><a href="#linux3">参考行程</a></li>
+       						<li class="linux4"><a href="#linux4">预定须知</a></li>
+    		 			 </ul>
+     
+  					</div>
+  				</div>
+			</nav>
+				<!--下面-->
+			<div class="row">
+				<!--左侧滚动-->
+				<div class="col-md-1">
+					<div class="list-group" id="mynav">
+						<a id="linux1" href="javascript:" class="list-group-item active">费用说明</a>
+						<a id="linux2" href="javascript:" class="list-group-item ">路线特色</a>
+						<a id="linux3" href="javascript:" class="list-group-item ">参考行程</a>
+						<a id="linux4" href="javascript:" class="list-group-item ">预定须知</a>
+					</div>
+				</div>
+				<!--右侧滑动-->
+				<div class="col-md-11">
+					<div class="panel panel-default" idx="linux1">
+				<div class="panel-heading">
+					<div class="panel-title">
+						<h3 class="page-header" >费用说明</h3>
+					</div>
+					<div class="panel-body">
+				
+						<p>1、住宿：每人1床位，酒店提供双人标间。单人出行旅行社安排拼房，如若无人拼房，团上现补单房差，3人以上可补房差亦可安排加床（加床为钢丝床或床垫）或三人间（部分酒店无三人间）以酒店提供为准，费用同正常床位！因旺季酒店房源有限，如遇酒店满房，旅行社根据出团当天人数安排同等级价格酒店！敬请理解！九寨沟参考酒店：神仙池大酒店、雄狮贵宾楼，花间雅舍、热格仓大酒店等同等级价格酒店！
+2、门票：含九寨沟门票220元+九寨沟观光车90元+黄龙门票200元，持景区优惠证件的游客，优惠金额由导游团上退还游客，因九寨沟为网上订票，故在统计时须告知导游，如未告知导游真实优惠票的情况而引起损失，由客人自理。九寨沟+黄龙两景点半价证件优惠退100元/人，免票证件优惠退200元/人。
+3、用餐：2早餐4正餐，（按10人一桌计算，若人数减少则按比例减少菜品和菜量）.所含早晚餐均在所住宾馆用餐，餐标以酒店提供为准，不属于旅游行程质量范围。因九寨房餐均为组合消费，任一项取消均不退费。
+4、用车：全程正规空调旅游车，每人一个正座，确保车况良好，干净卫生，司机服务态度好。
+5、导服：优秀中文导游服务（获得旅游局认可的导游资格证书），九寨沟内提供专业景区讲解员。
+6、赠送：臧家家访+藏羌风情晚会，赠送项目，不参加不退费！
+7、保险：旅行社责任保险、旅游意外伤害险；如因交通事故造成客人身体伤害及财物损失，按照《中华人民共和国道路交通事故处理办法》进行赔偿，解释权及理赔权由保险公司负责。
+
+温馨提示：
+1、现九寨沟景区实行实名制认证购票，请各位顾客出团前务必带上身份证证件，才能取票，如因自身原因忘记或无法提供身份证证件不能进入景区，造成的后果自行承担。
+
+
+本店其他热门四川旅游景点推荐：（点击产品ID复制，在度假搜索栏搜索查看产品）
+A、九寨沟高端系列之.五星喜来登—全程包房，两晚入住国际五星喜来登大酒店，自助早晚餐尽情享用——搜索产品ID：927483579
+B、九寨沟高端系列之.超值双飞—直飞九寨沟，免去汽车长途之忧，超高性价比—搜索产品ID：1237849483
+C、亲子美食纯玩系列之.都江堰熊猫乐园VIP一日游—绝对真纯玩，各种独家定制成都美食每人一套，详细产品特色搜索产品ID：1470404541
+D、峨乐贵宾纯玩系列—升级熊猫王子酒店+特色峨眉圣象晚会。搜索产品ID：1928323863
+E、四川旅游直通车系列—站站停，只玩，不购物，想玩多久玩多久。点击本店店铺搜索目的地直通车，各种产品应有尽有。（例如：成都—九寨沟直通车、成都—熊猫基地直通车等等）热门直通车ID推荐：熊猫基地：2367419185、九寨沟:1710031052、峨眉山：1853725192、都江堰青城山：3882162205.</p>
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default" idx="linux2">
+				<div class="panel-heading">
+					<div class="panel-title">
+						<h3 class="page-header" >路线特色</h3>
+					</div>
+					<div class="panel-body">
+						<p>1、单房差/如1人全程入住相应指定酒店单独包房，需补单房差；
+2、因交通延阻、罢工、天气、飞机机器故障、航班取消或更改时间等不可抗力原因所引致的额外费用；
+3、景区配套便民服务设施及体验项目：
+①九寨沟沟内中餐60元/人起（可自带零食）
+②黄龙索道上行80元下行40元（可步行）【赠送】：臧家家访晚会+藏羌风情晚会，感受原汁原味的臧家风情！
+【景点】：蓝天白云美景，惬意的心情，时间更充分，享受更彻底，九寨之旅从这里开始！
+【服务】：提供成都是三环以内免费接送服务，出行无忧。
+【品质】：国旅自主发团，不转卖，不外包，享受国旅内部价格与服务</p>
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default" idx="linux3">
+				<div class="panel-heading">
+					<div class="panel-title">
+						<h3 class="page-header" >参考行程</h3>
+					</div>
+					<div class="panel-body">
+						
+						<p>集合时间： 05:00（出团时间、地点仅供参考，具体以出团通知书为准）
+集合地点： 成都三环路以内我们免费提供接车服务（包括：成都站、春熙路、宽窄巷子、锦里等）
+集合详情：
+最终集合时间、集合地点以导游通知及工作人员通知为准，提供成都市三环以内免费接车服务！导游 出发前一晚19:00-22:00 与你联系协商接车时间！
+
+景点： 阿坝州——黄龙风景区(约3小时30分钟) ——走进臧家家访(约1小时)</p>
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default" idx="linux4">
+				<div class="panel-heading">
+					<div class="panel-title">
+						<h3 class="page-header" >预定须知</h3>
+					</div>
+					<div class="panel-body">
+						
+						<p>(本产品由成都中国国旅提供产品销售、资源确认、合同签署、行程安排等全部环节的旅游服务。在您付款成功、并且商家给您最终预约确认后，商家与您的合同方能生效。在合同生效之前，用户与商家双方均有权更改或取消订单，且无须承担任何损失。
+1、根据您所选择的住宿标准、服务内容标准、出行时间、以及优惠活动时间价格会有差异，详细客服。
+2、旅游者如70系岁以上（含70岁）人员出游的，本人需充分考虑自身健康状况能够完成本次旅游活动，谨慎出游，建议要有亲友陪同出游，如因旅游者自身身体原因引发疾病或其他损害由旅游者本人承担相关责任。出于健康安全考虑，75岁及以上游客建议自行安排或者选择其他线路出行，我社无法接待安排，敬请理解。 
+3、若本旅游产品未达到最低成团人数，我司将在游客报名参加本旅游产品时约定的出发日前7日按预订时联系方式通知游客，游客可以选择延期出发、更改旅游产品出行，或要求退回已付的团款，我司不承担任何违约责任。出发前7日内（含第7日）提出解除合同的，应当按下列标准向支付游客损失费：出发前7日至4日，按旅游费用总额10%赔付（此处描述的旅游费用总额含附加产品预定费用）；出发前3日内（含第三日），按旅游费用总额15%赔付（此处描述的旅游费用总额含附加产品预定费用）。 
+4、出游过程中，如产生退费情况，以退费项目旅行社折扣价为依据，均不以挂牌价为准，特别情况下涉及退费也仅退回优惠后的门票费用；有关18岁以下的小孩按成人操作说明：18岁以下的小孩按成人操作，优惠不退（产生优惠说明：15岁以下必须携带户口本以及身份证，15岁以上携带学生证原件）如未携带，这边不产生优惠，游客现补优惠差价。 
+</p>
+					</div>
+				</div>
+			</div>
+		
+				</div>
+				</div>
+			</div>
+			
+				
+		</div>
+
+	</body>
+	<script>
+		$(window).scroll(function(){
+			$(".panel").each(function(){
+				//已滚动的高
+				st=$(window).scrollTop();
+				pt=$(this).offset().top;
+				if(st>=(pt-200)){
+					idx=$(this).attr("idx");
+					$("#"+idx).addClass("active");
+					$(".list-group-item").not($("#"+idx)).removeClass("active");
+					
+					$("."+idx).addClass("active");
+					$(".navbar-nav li").not($("."+idx)).removeClass("active");
+				}
+			});
+		});
+	</script>
+</html>

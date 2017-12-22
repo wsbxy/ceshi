@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>首页</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1" >
+		 <link href="css/bootstrap.min.css" rel="stylesheet">
+		 <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+  		 <script src="js/bootstrap.min.js"></script>
+  		<script src="js/docs.min.js"></script>
+  		<script src="js/docs.min.js"></script>
+  		 <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+	</head>
+	<style>
+		.fotter{
+			font-size: small;
+			color: #C0C0C0;
+		}
+	</style>
+	<body>
+		<div class="container-fluid">
+			<h3 class="page-header">旅游项目</h3>
+			<!--navbar-default默认的颜色，navbar-inverse是反色-->
+			<nav class="navbar navbar-inverse">
+				<div class="container">
+					<div class="navbar-header">
+					<a href="" class="navbar-brand">
+						<img src="images/logo.jpg" height="100%" />
+					</a>
+					<button class="navbar-toggle collapsed" data-toggle = "collapse" data-target = "#mynavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div id="mynavbar" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="">首页</a></li>
+					<li><a href="jingdian.html">景点</a></li>
+					<li><a href="">大咖</a></li>
+					<li><a href="">自驾游</a></li>
+					<li><a href="">品牌体验</a></li>
+					<li class="dropdown">
+						<a href="" class="dropdown-toggle" data-toggle="dropdown">
+							<span>分类<span class="caret"></span></span>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="guoneilvyou.html">国内旅游</a></li>
+							<li><a href="guowailvyou.html">国外旅游</a></li>
+							
+						</ul>
+					</li>
+				</ul>
+				<div id="mynavbar" class="collapse navbar-collapse">
+					
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="">旅游项目</a></li>
+				</ul>
+				<form action="" class="navbar-form navbar-right">
+					<div class="form-group">
+						<input type="text" class="form-control" />
+					</div>
+					<div class="form-group">
+						<button  class="btn btn-danger">
+							<span class="glyphicon glyphicon-search"></span>搜索
+						</button>
+					</div>
+				</form>
+			</div>
+			</div>
+			</nav>
+			<!--1-->
+			<div class="row">
+				<div class="col-md-4">
+					<div class="panel-group"id="accordion">
+					<div class="panel panel-warning">
+					<div class="panel-heading">
+						<div class="panel-title"><a href="#1" data-toggle="collapse"><br />特色套餐</a></div>
+					</div>
+					<div id="1" class="panel-collapse collapse ">
+						<div class="panel-body" id="one"><a href="jingdian_jiuzhaigou.html">九寨沟特色游行</a></div>
+					</div>
+					<div class="panel-heading">
+						<div class="panel-title"><a href="#2" data-toggle="collapse">暑期推荐</a></div>
+					</div>
+					<div id="2" class="panel-collapse collapse ">
+						<div class="panel-body" id="one">三亚畅玩三日游</div>
+					</div>
+					<div class="panel-heading">
+						<div class="panel-title"><a href="#3" data-toggle="collapse">优惠套餐</a></div>
+					</div>
+					<div id="3" class="panel-collapse collapse ">
+						<div class="panel-body" id="one">普吉岛游玩</div>
+					</div>
+					<div class="panel-heading">
+						<div class="panel-title"><a href="#4" data-toggle="collapse">预定套餐</a></div>
+					</div>
+					<div id="4" class="panel-collapse collapse ">
+						<div class="panel-body" id="one">曼谷之旅</div>
+					</div>
+					<div class="panel-heading">
+						<div class="panel-title"><a href="#5" data-toggle="collapse">周边推荐</a></div>
+					</div>
+					<div id="5" class="panel-collapse collapse ">
+						<div class="panel-body" id="one">成都周边游推荐</div>
+					</div>
+					
+				
+					</div>
+				</div>
+				</div>
+				<div class="col-md-8">
+					<!--幻灯片图片-->
+					<div id="mycarousel" class="carousel slide" data-ride = "carousel">
+					<div class="carousel-inner">
+					<div class="item active">
+						<img src="images/1.jpg"/>
+					</div>
+					<div class="item">
+						<img src="images/2.jpg"/>
+					</div>
+					<div class="item">
+						<img src="images/3.jpg"/>
+					</div>
+					</div>
+					<!--指示灯-->
+					<ol class="carousel-indicators">
+						<li data-target = "#mycarousel" data-slide-to = "0" class="active"></li>
+						<li data-target = "#mycarousel" data-slide-to = "1" ></li>
+						<li data-target = "#mycarousel" data-slide-to = "2" ></li>
+					</ol>
+					
+					<!--左右控制-->
+					<a href="#mycarousel" class="left carousel-control" data-slide = "prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+					</a>
+					<a href="#mycarousel" class="right carousel-control" data-slide = "next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+					</a>
+				</div>
+				</div>
+			
+			</div>
+			<!--成员介绍-->
+			<div class="container">
+				<div class="row" style="margin-top:30px;">
+				<div class="col-md-2">
+					<div >
+						<table>
+							<tr><img src="images/chengyuan1.jpg" class="img-circle"width="100%" /></tr>
+							<tr><p>姓名:白晓妍</p></tr>
+							<tr><p>介绍:旅游项目成员</p></tr>
+						</table>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div>
+						<table>
+							<tr><img src="images/chengyuan1.jpg" class="img-circle" width="100%"/></tr>
+							<tr><p>姓名：贺莲</p></tr>
+							<tr><p>介绍:旅游项目成员</p></tr>
+						</table>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div>
+						<table>
+							<tr><img src="images/chengyuan1.jpg" class="img-circle" width="100%"/></tr>
+							<tr><p>姓名：黄松</p></tr>
+							<tr><p>介绍:旅游项目组长</p></tr>
+						</table>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div>
+						<table>
+							<tr><img src="images/chengyuan1.jpg" class="img-circle" width="100%"/></tr>
+							<tr><p>姓名：符纯海</p></tr>
+							<tr><p>介绍:旅游项目成员</p></tr>
+						</table>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div>
+						<table>
+							<tr><img src="images/chengyuan1.jpg" class="img-circle" width="100%"/></tr>
+							<tr><p>姓名：李康</p></tr>
+							<tr><p>介绍:旅游项目成员</p></tr>
+						</table>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div>
+						<table>
+							<tr><img src="images/chengyuan1.jpg" class="img-circle" width="100%"/></tr>
+							<tr><p>姓名：焦荣鹏</p></tr>
+							<tr><p>介绍:旅游项目成员</p></tr>
+						</table>
+					</div>
+				</div>
+			</div>
+				
+			</div>
+			<div class="col-md-offset-4" style="margin-top: 30px;">
+				<div class="fotter">
+				成都纺织高等专科软件152小组旅游项目2017-6-10@cdtc.edu.com
+			</div>
+			</div>
+			
+				
+		</div>
+	</body>
+</html>
