@@ -1,4 +1,8 @@
-旅游项目demo
-[项目地址：](https://htmlpreview.github.io/?https://raw.githubusercontent.com/wsbxy/lvyou_demo/master/index.html)
---v0.0.1
---第一次完整提交
+#项目说明
+	旅游项目demo
+#打开方式
+[打开demo：](https://htmlpreview.github.io/?https://raw.githubusercontent.com/wsbxy/lvyou_demo/master/index.html"悬停显示")
+
+#版本说明
+	v0.0.1
+	第一次完整提交
